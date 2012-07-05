@@ -25,13 +25,18 @@ Gem::Specification.new do |s|
 
   s.require_paths = [ 'lib' ]
 
-  dependencies = []
+  dependencies = 
+    [
+      [ 'nokogiri' ]
+    ]
 
   developement_dependencies =
     [
       [ 'rake',     '~> 0.8.7' ],
       [ 'minitest', '~> 2.11'  ],
-    ]
+      [ 'vcr',      '~> 1.6'   ],
+      [ 'fakeweb'              ],
+   ]
 
   runtime_dependencies = []
 
