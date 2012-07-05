@@ -15,4 +15,18 @@ module Vedder
       end
     end
   end
+
+  describe LocationForecast do
+    describe 'initialization' do
+      it 'is initialized with latitude and longitude' do
+        latitude  = 52.5233
+        longitude = 13.4127
+
+        instance = LocationForecast.new(latitude, longitude)
+        
+        instance.latitude.must_equal  latitude
+        instance.longitude.must_equal longitude
+      end
+    end
+  end
 end
