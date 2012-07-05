@@ -6,6 +6,8 @@ Ruby wrapper for the `api.met.no` weather web service.
 
 ## `LocationForecast`
 
+`http://api.met.no/weatherapi/locationforecast/1.8/documentation`
+
 ```ruby
 
 location_forecast = Vedder::LocationForecast.new(52.5233, 13.4127)
