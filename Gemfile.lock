@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    vedder (0.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    minitest (2.12.1)
+    rake (0.8.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest (~> 2.11)
+  rake (~> 0.8.7)
+  vedder!
