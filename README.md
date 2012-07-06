@@ -1,3 +1,5 @@
+# Attention! This is work in progress. Nothing works as advertised.
+
 # vedder
 
 Ruby wrapper for the `api.met.no` weather web service.
